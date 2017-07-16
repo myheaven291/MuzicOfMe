@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ace59df80b5cf903d765a9ad187ba18c2775abb2">
+        <dex dex="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_10e49f8955fc0ad9f6cbd8c2fd9f7d87ba5b7ac9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/.android/build-cache/199f7398a0f939e979f197c2a8bafaec8f2e604c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7475684c6ffc42ecd6d2fe4f49738a05935c51a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/.android/build-cache/756de903fc359363b98ed2cd9308e3e0b485d5b7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9617fc4d3460fa4473df94e5b0e8cac763dafe17/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5f084a61176e7f9c5273a4643d4b066f8ba6316d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/.android/build-cache/59fe60f3e31be8db7cc95ce8b68280c6827a7bcf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d65e76506f6b23a8614b0fa0cffcba42d32429c0/classes.dex" />
+    </item>
+
+</items>
