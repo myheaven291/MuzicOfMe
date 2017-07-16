@@ -5,20 +5,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
 
 import com.example.apple.demomusic.adapters.PagerAdapter;
-import com.example.apple.demomusic.networks.GetMusicTypes;
-import com.example.apple.demomusic.networks.RetrofitFactory;
-import com.example.apple.demomusic.networks.json_models.AllMusicTypesJSONModel;
-import com.example.apple.demomusic.networks.json_models.MusicTypeJSONModel;
-
-import java.util.List;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
     private TabLayout tabLayout;
@@ -50,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
 //        });
         setUI();
         setUX();
-        setTabIcon();
     }
 
     public void setUI() {
@@ -63,23 +50,39 @@ public class MainActivity extends AppCompatActivity {
         PagerAdapter pagerAdapter = new PagerAdapter(fm);
         viewPager.setAdapter(pagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
-        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-        tabLayout.setTabsFromPagerAdapter(pagerAdapter);
-    }
 
-    public void setTabIcon() {
+        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+
         int[] imageResId = {
                 R.drawable.ic_music,
                 R.drawable.ic_favorite,
                 R.drawable.ic_offline
         };
 
-        for (
-                int i = 0;
-                i < imageResId.length; i++)
-
-        {
+        for (int i = 0; i < imageResId.length; i++) {
             tabLayout.getTabAt(i).setIcon(imageResId[i]);
+
         }
+        for (int i = 1; i < imageResId.length; i++) {
+            tabLayout.getTabAt(i).getIcon().setAlpha(90);
+        }
+
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                tab.getIcon().setAlpha(1000);
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+                tab.getIcon().setAlpha(90);
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+                tab.getIcon().setAlpha(90);
+            }
+        });
     }
 }
