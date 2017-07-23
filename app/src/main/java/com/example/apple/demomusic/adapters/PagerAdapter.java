@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 
 import com.example.apple.demomusic.fragments.FavoriteFragment;
 import com.example.apple.demomusic.fragments.MusicFragment;
-import com.example.apple.demomusic.fragments.OfflineFragment;
+import com.example.apple.demomusic.fragments.DownloadFragment;
 
 /**
  * Created by apple on 7/16/17.
@@ -29,7 +29,7 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
                 fragment = new FavoriteFragment();
                 break;
             case 2:
-                fragment = new OfflineFragment();
+                fragment = new DownloadFragment();
                 break;
         }
 

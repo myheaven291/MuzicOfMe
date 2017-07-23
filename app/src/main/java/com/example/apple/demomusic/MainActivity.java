@@ -19,23 +19,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        final GetMusicTypes getMusicTypes = RetrofitFactory.getInstance().create(GetMusicTypes.class);
-//
-//        getMusicTypes.getMusicTypes().enqueue(new Callback<AllMusicTypesJSONModel>() {
-//            @Override
-//            public void onResponse(Call<AllMusicTypesJSONModel> call, Response<AllMusicTypesJSONModel> response) {
-//                List<MusicTypeJSONModel> list = response.body().getSubgenres();
-//                for(int i = 0; i < list.size(); i ++){
-//                    MusicTypeJSONModel m = list.get(i);
-//                    Log.d(TAG, m.getId() + " " + m.getTranslation_key());
-//                }
-//            }
-//
-//            @Override
-//            public void onFailure(Call<AllMusicTypesJSONModel> call, Throwable t) {
-//                Toast.makeText(MainActivity.this, "There is no connection", Toast.LENGTH_SHORT).show();
-//            }
-//        });
         setUI();
         setUX();
     }
@@ -65,23 +48,23 @@ public class MainActivity extends AppCompatActivity {
 
         }
         for (int i = 1; i < imageResId.length; i++) {
-            tabLayout.getTabAt(i).getIcon().setAlpha(90);
+            tabLayout.getTabAt(i).getIcon().setAlpha(100);
         }
 
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                tab.getIcon().setAlpha(1000);
+                tab.getIcon().setAlpha(255);
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
-                tab.getIcon().setAlpha(90);
+                tab.getIcon().setAlpha(100);
             }
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
-                tab.getIcon().setAlpha(90);
+
             }
         });
     }
