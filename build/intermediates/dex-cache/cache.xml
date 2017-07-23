@@ -3,6 +3,33 @@
 
     <item
         is-multidex="true"
+        jar="/Users/apple/MuzicOfMe/app/libs/guava-14.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="69e12f4c6aeac392555f1ea86fab82b5e5e31ad4">
+        <dex dex="/Users/apple/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/2/guava-14.0.1_671007bf973bd7aefef0958d42712f6197f7d1af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/MuzicOfMe/app/libs/commons-lang3-3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
+        <dex dex="/Users/apple/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-lang3-3.1_f244d3bd5ddd5894c38f1d0a566a43d1da31a199/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/MuzicOfMe/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/apple/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_524055dcf91e6e2850664d11dc086061f9fdc761/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -18,6 +45,15 @@
         revision="26.0.0"
         sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
         <dex dex="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-lang3-3.1_426b6569923163a12555bb31023383a660d2c818/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/MuzicOfMe/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="224e43e6dcc27f630458681c3a5790b87fb683f9">
+        <dex dex="/Users/apple/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3a640e84983e38f21c7dd2160e390e8026c0207e/classes.dex" />
     </item>
     <item
         is-multidex="true"
