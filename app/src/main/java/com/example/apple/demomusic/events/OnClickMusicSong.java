@@ -8,9 +8,11 @@ import com.example.apple.demomusic.databases.TopSongModel;
 
 public class OnClickMusicSong {
     private TopSongModel topSongModel;
+    boolean hideTablayout;
 
-    public OnClickMusicSong(TopSongModel topSongModel) {
+    public OnClickMusicSong(TopSongModel topSongModel, boolean hideTablayout) {
         this.topSongModel = topSongModel;
+        this.hideTablayout = hideTablayout;
     }
 
     public TopSongModel getTopSongModel() {
@@ -19,5 +21,13 @@ public class OnClickMusicSong {
 
     public void setTopSongModel(TopSongModel topSongModel) {
         this.topSongModel = topSongModel;
+    }
+
+    public boolean isHideTablayout() {
+        return hideTablayout;
+    }
+
+    public void setHideTablayout(boolean hideTablayout) {
+        this.hideTablayout = hideTablayout;
     }
 }

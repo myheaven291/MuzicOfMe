@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.example.apple.demomusic.MainActivity;
 import com.example.apple.demomusic.R;
 import com.example.apple.demomusic.adapters.MusicTypeAdapter;
 import com.example.apple.demomusic.databases.MusicTypeModel;
@@ -38,8 +39,7 @@ public class MusicFragment extends Fragment implements View.OnClickListener {
     private static final String TAG = MusicFragment.class.toString();
     @BindView(R.id.rv_music)
     RecyclerView rvMusicTypes;
-    MusicTypeAdapter musicTypeAdapter;
-
+    private MusicTypeAdapter musicTypeAdapter;
     private List<MusicTypeModel> musicTypeModelList = new ArrayList<>();
 
 
@@ -65,7 +65,7 @@ public class MusicFragment extends Fragment implements View.OnClickListener {
         getMusicTypes.getMusicTypes().enqueue(new Callback<AllMusicTypesJSONModel>() {
             @Override
             public void onResponse(Call<AllMusicTypesJSONModel> call, Response<AllMusicTypesJSONModel> response) {
-                for(MusicTypeJSONModel musicTypeJSONModel : response.body().getSubgenres()){
+                for (MusicTypeJSONModel musicTypeJSONModel : response.body().getSubgenres()) {
                     MusicTypeModel musicTypeModel = new MusicTypeModel();
                     musicTypeModel.setId(musicTypeJSONModel.getId());
                     musicTypeModel.setKey(musicTypeJSONModel.getTranslation_key());
@@ -107,9 +107,10 @@ public class MusicFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         MusicTypeModel musicTypeModel = (MusicTypeModel) view.getTag();
-
         EventBus.getDefault().postSticky(new OnClickMusicType(musicTypeModel));
-
-        ScreenManager.openFragment(getActivity().getSupportFragmentManager(),new TopSongFragment(),R.id.layout_container,true);
+        MainActivity mainActivity = (MainActivity) getActivity();
+        mainActivity.getTabLayout().setVisibility(View.GONE);
+        //TODO call TopSongFragment
+        ScreenManager.openFragment(getActivity().getSupportFragmentManager(), new TopSongFragment(), R.id.layout_container, true);
     }
 }

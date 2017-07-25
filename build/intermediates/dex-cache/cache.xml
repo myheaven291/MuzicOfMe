@@ -21,57 +21,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/apple/MuzicOfMe/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7721630b403e7443b466f07daa453424af1809c8">
+        <dex dex="/Users/apple/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3a640e84983e38f21c7dd2160e390e8026c0207e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/apple/MuzicOfMe/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/Users/apple/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_524055dcf91e6e2850664d11dc086061f9fdc761/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="9eca66a7970c0d13fc544f56fa5e532b7eea47ed">
-        <dex dex="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_10e49f8955fc0ad9f6cbd8c2fd9f7d87ba5b7ac9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/apple/AndroidStudioProjects/DemoMusic/app/libs/commons-lang3-3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
-        <dex dex="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-lang3-3.1_426b6569923163a12555bb31023383a660d2c818/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/apple/MuzicOfMe/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="224e43e6dcc27f630458681c3a5790b87fb683f9">
-        <dex dex="/Users/apple/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3a640e84983e38f21c7dd2160e390e8026c0207e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/apple/AndroidStudioProjects/DemoMusic/app/libs/guava-14.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="69e12f4c6aeac392555f1ea86fab82b5e5e31ad4">
-        <dex dex="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/transforms/dex/debug/folders/1000/2/guava-14.0.1_1fde3636d4692cb4c9766acc776e840d42f7fb5b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/apple/AndroidStudioProjects/DemoMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5f084a61176e7f9c5273a4643d4b066f8ba6316d/classes.dex" />
     </item>
 
 </items>

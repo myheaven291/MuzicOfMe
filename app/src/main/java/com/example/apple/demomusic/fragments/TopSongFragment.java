@@ -18,6 +18,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.apple.demomusic.MainActivity;
 import com.example.apple.demomusic.R;
 import com.example.apple.demomusic.adapters.TopSongsAdapter;
 import com.example.apple.demomusic.databases.MusicTypeModel;
@@ -30,10 +32,13 @@ import com.example.apple.demomusic.networks.services.GetTopSongs;
 import com.example.apple.demomusic.networks.RetrofitFactory;
 import com.example.apple.demomusic.networks.json_models.topsongs.SongDetailJSONModel;
 import com.example.apple.demomusic.networks.json_models.topsongs.TopSongsJSONModel;
+
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
+
 import java.util.ArrayList;
 import java.util.List;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Call;
@@ -43,7 +48,7 @@ import retrofit2.Response;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TopSongFragment extends Fragment implements View.OnClickListener{
+public class TopSongFragment extends Fragment implements View.OnClickListener {
     private static final String TAG = TopSongFragment.class.toString();
     @BindView(R.id.rv_top_song)
     RecyclerView rvTopSongs;
@@ -56,7 +61,6 @@ public class TopSongFragment extends Fragment implements View.OnClickListener{
     ImageView ivTopSong;
     @BindView(R.id.toolbar)
     Toolbar tbTopSongs;
-
 
     private List<TopSongModel> topSongModelList = new ArrayList<>();
     private MusicTypeModel musicTypeModel;
@@ -79,7 +83,7 @@ public class TopSongFragment extends Fragment implements View.OnClickListener{
     private void setupUI(View view) {
         ButterKnife.bind(this, view);
 
-
+        EventBus.getDefault().register(this);
         topSongsAdapter = new TopSongsAdapter(topSongModelList, getContext());
         rvTopSongs.setAdapter(topSongsAdapter);
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL);
@@ -87,16 +91,14 @@ public class TopSongFragment extends Fragment implements View.OnClickListener{
         LinearLayoutManager manager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);
         rvTopSongs.setLayoutManager(manager);
 
-        EventBus.getDefault().register(this);
-
         ivTopSong.setImageResource(musicTypeModel.getImageID());
         topSongsAdapter.setOnItemClick(this);
 
-        if (tbTopSongs != null) {
-            ((AppCompatActivity) getActivity()).setSupportActionBar(tbTopSongs);
-            ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowHomeEnabled(true);
-            ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
-        }
+//        if (tbTopSongs != null) {
+//            ((AppCompatActivity) getActivity()).setSupportActionBar(tbTopSongs);
+//            ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowHomeEnabled(true);
+//            ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
+//        }
 
         ImageView ivBack = tbTopSongs.findViewById(R.id.iv_back);
         ImageView ivBookmark = tbTopSongs.findViewById(R.id.iv_bookmark_favourite);
@@ -104,14 +106,16 @@ public class TopSongFragment extends Fragment implements View.OnClickListener{
         ivBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                MainActivity mainActivity = (MainActivity) getActivity();
+                mainActivity.getTabLayout().setVisibility(View.VISIBLE);
+
                 getActivity().onBackPressed();
             }
         });
     }
 
-
     @Subscribe(sticky = true)
-    public void onClickMusicType(OnClickMusicType onclickMusicType){
+    public void onClickMusicType(OnClickMusicType onclickMusicType) {
         musicTypeModel = onclickMusicType.getMusicTypeModel();
     }
 
@@ -145,8 +149,7 @@ public class TopSongFragment extends Fragment implements View.OnClickListener{
     @Override
     public void onClick(View view) {
         TopSongModel topSongModel = (TopSongModel) view.getTag();
+        EventBus.getDefault().postSticky(new OnClickMusicSong(topSongModel, true));
         MusicManager.loadSearchSong(topSongModel, getContext());
-
-        ScreenManager.openFragment(getActivity().getSupportFragmentManager(),new MiniPlayerFragment(),R.id.layout_container,false);
     }
 }

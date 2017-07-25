@@ -13,6 +13,9 @@ import com.example.apple.demomusic.fragments.DownloadFragment;
  */
 
 public class PagerAdapter extends FragmentStatePagerAdapter {
+    MusicFragment musicFragment;
+    FavoriteFragment favoriteFragment;
+    DownloadFragment downloadFragment;
 
     public PagerAdapter(FragmentManager fm) {
         super(fm);
@@ -20,16 +23,19 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
+        musicFragment = new MusicFragment();
+        favoriteFragment = new FavoriteFragment();
+        downloadFragment = new DownloadFragment();
         Fragment fragment = null;
         switch (position){
             case 0:
-                fragment = new MusicFragment();
+                fragment = musicFragment;
                 break;
             case 1:
-                fragment = new FavoriteFragment();
+                fragment = favoriteFragment;
                 break;
             case 2:
-                fragment = new DownloadFragment();
+                fragment = downloadFragment;
                 break;
         }
 

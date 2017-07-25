@@ -78,6 +78,7 @@ public class TopSongsAdapter extends RecyclerView.Adapter<TopSongsAdapter.TopSon
                 tvArtist.setText(topSongModel.getArtist());
 
                 view.setTag(topSongModel);
+
             }
         }
     }

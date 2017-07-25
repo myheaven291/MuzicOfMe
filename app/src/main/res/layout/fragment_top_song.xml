@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:clickable="true"
-    android:fitsSystemWindows="true">
+    android:clickable="true">
 
     <android.support.design.widget.AppBarLayout
         android:background="@color/colorPrimary"
@@ -78,5 +77,13 @@
         app:borderWidth="0dp"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end" />
+
+    <RelativeLayout
+        android:id="@+id/layout_mini_container"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+    </RelativeLayout>
+
 
 </android.support.design.widget.CoordinatorLayout>
