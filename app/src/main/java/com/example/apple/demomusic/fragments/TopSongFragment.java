@@ -64,6 +64,7 @@ public class TopSongFragment extends Fragment implements View.OnClickListener {
 
     private List<TopSongModel> topSongModelList = new ArrayList<>();
     private MusicTypeModel musicTypeModel;
+    public boolean allowBackPressed = true;
 
     public TopSongFragment() {
         // Required empty public constructor

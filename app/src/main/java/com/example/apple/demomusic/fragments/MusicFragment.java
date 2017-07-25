@@ -111,6 +111,6 @@ public class MusicFragment extends Fragment implements View.OnClickListener {
         MainActivity mainActivity = (MainActivity) getActivity();
         mainActivity.getTabLayout().setVisibility(View.GONE);
         //TODO call TopSongFragment
-        ScreenManager.openFragment(getActivity().getSupportFragmentManager(), new TopSongFragment(), R.id.layout_container, true);
+        ScreenManager.openFragment(getActivity().getSupportFragmentManager(), new TopSongFragment(), R.id.layout_container, true, TopSongFragment.class.toString());
     }
 }

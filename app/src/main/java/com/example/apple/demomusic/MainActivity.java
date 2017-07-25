@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.example.apple.demomusic.adapters.PagerAdapter;
 import com.example.apple.demomusic.databases.TopSongModel;
 import com.example.apple.demomusic.events.OnClickMusicSong;
+import com.example.apple.demomusic.fragments.TopSongFragment;
 import com.squareup.picasso.Picasso;
 
 import org.greenrobot.eventbus.EventBus;
@@ -113,5 +114,15 @@ public class MainActivity extends AppCompatActivity {
 
     public TabLayout getTabLayout() {
         return tabLayout;
+    }
+
+    @Override
+    public void onBackPressed() {
+        TopSongFragment topSongFragment = (TopSongFragment) getSupportFragmentManager().findFragmentByTag(TopSongFragment.class.toString());
+        if(topSongFragment != null && topSongFragment.allowBackPressed){
+            tabLayout.setVisibility(View.VISIBLE);
+            super.onBackPressed();
+        }
+
     }
 }

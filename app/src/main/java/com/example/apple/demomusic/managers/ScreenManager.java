@@ -15,9 +15,9 @@ import com.example.apple.demomusic.R;
 public class ScreenManager {
     private static final String TAG = ScreenManager.class.toString();
 
-    public static void openFragment(FragmentManager fragmentManager, Fragment fragment,int layoutID, boolean addToBackStack) {
+    public static void openFragment(FragmentManager fragmentManager, Fragment fragment,int layoutID, boolean addToBackStack, String tag) {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.add(layoutID, fragment);
+        fragmentTransaction.add(layoutID, fragment, tag);
         if (addToBackStack) {
             fragmentTransaction.addToBackStack(null);
         }
