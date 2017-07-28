@@ -10,9 +10,13 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <RelativeLayout
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
+            android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
             android:id="@+id/tv_type_song"
             android:layout_width="match_parent"
@@ -22,6 +26,7 @@
             android:textSize="20sp" />
 
         <TextView
+            android:paddingStart="10dp"
             android:id="@+id/tv_number_song"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

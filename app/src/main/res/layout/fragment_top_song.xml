@@ -78,12 +78,4 @@
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end" />
 
-    <RelativeLayout
-        android:id="@+id/layout_mini_container"
-        android:layout_gravity="bottom"
-        android:layout_width="match_parent"
-        android:layout_height="100dp">
-    </RelativeLayout>
-
-
 </android.support.design.widget.CoordinatorLayout>

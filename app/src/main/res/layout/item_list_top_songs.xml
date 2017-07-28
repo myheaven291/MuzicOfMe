@@ -4,6 +4,8 @@
     android:layout_height="100dp"
     android:background="@color/colorPrimary">
     <ImageView
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:id="@+id/iv_item_top_song"

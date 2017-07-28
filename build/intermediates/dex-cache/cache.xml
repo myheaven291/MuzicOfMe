@@ -3,39 +3,336 @@
 
     <item
         is-multidex="true"
-        jar="/Users/apple/MuzicOfMe/app/libs/guava-14.0.1.jar"
+        jar="/Users/hihihahahehe/.android/build-cache/07c854953fabc0eb10c03200b32e07b7b3377cc3/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="69e12f4c6aeac392555f1ea86fab82b5e5e31ad4">
-        <dex dex="/Users/apple/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/2/guava-14.0.1_671007bf973bd7aefef0958d42712f6197f7d1af/classes.dex" />
+        sha1="45831e259db609561bfbc867a920dda3ee906cc9">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_62e66fa77609d65c1fd05cd0e8403584b72d20df/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/apple/MuzicOfMe/app/libs/commons-lang3-3.1.jar"
+        jar="/Users/hihihahahehe/.android/build-cache/5a06c53e7337d60c60a77be1876f30219c875756/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
-        <dex dex="/Users/apple/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-lang3-3.1_f244d3bd5ddd5894c38f1d0a566a43d1da31a199/classes.dex" />
+        sha1="b0320408c54f5124a881ab10ee27a10d3fb73de8">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4e6ddc9c0ffd4ccf40d0f1c73b75c9b053a446a9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/apple/MuzicOfMe/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/hihihahahehe/.android/build-cache/92fe06e763dea54ee06638f703927a010b42e84a/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="7721630b403e7443b466f07daa453424af1809c8">
-        <dex dex="/Users/apple/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3a640e84983e38f21c7dd2160e390e8026c0207e/classes.dex" />
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1a30b077d8fffd5d3b5ef32f2dc66c7312430076/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/apple/MuzicOfMe/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/hihihahahehe/.android/build-cache/da10be529f974ecd2cf735620eb19701749ab4b1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1c323268dda578118d8966c50cfe0b9475943486/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_d896f30242cd5589f703bd9520ec4d86b02fba10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_4af574b31b702b6f48cad3371b309434ddf554ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/4435a8eba7b10921fc905a40d3ba736b79dbd9c6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ea71dd52c37e285f272ad4a1564e7503dc92c7fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/f7256a63c8f7823fe69b9615940cb738c14a3071/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c330d86d96846a98c81ec4ec9d70095bd4cb7320/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/d7c1899d05f06e5bfc4e4840055114ab08ce58f1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f2d1d32569d91e734344b90b370bb371ac1cf1c2">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4b32bada36ca5c887baa634ad6d3c8613653c197/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/87de6609072f034796256d06b333701516135ab1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1d55682c59707fca988617a4f9e91250e1484901/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.3.0_e96be0e6ade649f9395bb411e92cfa742d7b08c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/0b3a4f3ce977d7cf2b882ff532feefe99b0e3156/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e6a2b5ee5bcc22aa5fda3bd2649fc4658f0b4f67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/e07d815eb8a74049cc95035829a02399f76e5454/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="28e23e4546221bd010faea9ce2101226dc9ff35a">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c89319c45eb279f5e40cf2a206a5a5d6b5b7e19b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/c633a53d8f2536953a92ab2df8367d928b268695/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_85c121f431b1bdcc009a099d78e91d4d9c0f6c01/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/82bf1bc41f2350367d62cd859b6eca9d159f4266/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d5d22a873f93271b4a339840ff29b3786258aac8">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0922d6ba49dad78d32a717a167b4583588dc90db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_c47b131fb9c1726e034b0feec3f3585a99b0632f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/9e09011e9767bb76b5e27c9b8223476b93b14631/converter-gson-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.3.0_a39d91a366a72f05b05287e2c12862b33d0afe92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/f2e15f7f19dda026b21384d04ab42f3982bfb245/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c0fdddfb6bd48477e3aa5aa32e9e63f8945dc950/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/e6d36bb54ffb00dc1ad9a898beeab667d759d53d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3ecb9d2aad9a03dd8d0914b715cc1fc11d942c6c">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3115d2d9b6d3443b1ee613c9008a5679fda44b94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/0ead55220e3f2f9dabc7574be42400346698893e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8b3692b12bd36b33f18c0b77c0f5537bab52207c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="95008518b1cfa0ba599c658100fa4c492846b3b8">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b00ceef646858ba0d698ba134075b261318d197c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/2e850309e4a0c63e835dda5876b69943bfe1bdaa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="749da7273861e2e032b36d774058a09392dc7004">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c4c1568eac6132a07659d428d7ffd0032e90b0ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.7.0/2637055420a2da406e3ea9920c2ff4aafd38c970/butterknife-annotations-8.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2637055420a2da406e3ea9920c2ff4aafd38c970">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.7.0_72891623282d757939e11c7e13373ce50210ebf7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.8.0_3c0c4f0a619bb8f75899e1fbf4575ab3520f7c08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/cc1afa2885ecf4253a24416de9bde120fd4cec8f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0b7d39c161cecdb6c2b52a1cdc71faf0ffd4626e">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_297f90d244ddbf0fcccf5ee242e7ec219df26c7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/ab912247ee52963bd8ccf4c0b9297a5038f53e47/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f058f6ae65d52e3b5aa23f659850856823a996a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_eb140e2c49e49d85d528744e3414f1c2628c37fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/apple/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_524055dcf91e6e2850664d11dc086061f9fdc761/classes.dex" />
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_452af01852a4c5eeab291c65ee602579e6324def/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/0b4f0a09d5e3a943ba515230833b95a071b30e7b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4aee692f9df452749a2def8c662ec6bc198a89b6">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2d0573ddbfc70a141179cea30006ae33284f304c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/6c8d615e4ffed8b45cc404a7b2e8ba4acfccae9a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b5e57c96ee21f809d52614cc6742fcd84cf3e907/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/a60b7a61503b482eb89ccfac8cf3af258dd513c6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="809ebb7f47d79856a82cb34ad6fb28b4e59491b9">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cc4903360d31c122faa3246dbdf8eb006e7758a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_eb8b3db8934e93ab93096be06dff01a445c78fbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/MuzicOfMe/app/libs/guava-14.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="69e12f4c6aeac392555f1ea86fab82b5e5e31ad4">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/2/guava-14.0.1_4dca7e61815b0bc7d335351cff23c14fe6041793/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.13.0_860699bb2814106efacab916de703ee8c00e68a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/MuzicOfMe/app/libs/commons-lang3-3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-lang3-3.1_6ec63c10c0e50acdc68a3d00cd03fec7a2623445/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/24d178c3e1e53835d713246142989cb5473144d4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5591651f9a61d83f9b7837e523b74adec24e44aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hihihahahehe/.android/build-cache/26f7447421298a415d47e8d56a794531b3bce061/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/hihihahahehe/MuzicOfMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a96db545df1e7dbef716924176513f6ffaecc669/classes.dex" />
     </item>
 
 </items>
