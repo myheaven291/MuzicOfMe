@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -60,6 +61,12 @@ public class MainActivity extends AppCompatActivity {
     ImageView ivMainClose;
     @BindView(R.id.seek_bar_main)
     SeekBar sbMainPlayer;
+    @BindView(R.id.tv_current_time)
+    TextView tvCurrentTime;
+    @BindView(R.id.tv_max_time)
+    TextView tvMaxTime;
+    @BindView(R.id.fab_main_pause)
+    FloatingActionButton fabMain;
     private static final String TAG = MainActivity.class.toString();
 
     @Override
@@ -122,11 +129,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        fabMain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MusicManager.setStatus();
+                if (!MusicManager.getHybridMediaPlayer().isPlaying()) {
+                    fabMain.setImageResource(R.drawable.ic_play);
+                } else fabMain.setImageResource(R.drawable.ic_pause);
+            }
+        });
+
         fabPause.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 MusicManager.setStatus();
-                if(!MusicManager.getHybridMediaPlayer().isPlaying()){
+                if (!MusicManager.getHybridMediaPlayer().isPlaying()) {
                     fabPause.setImageResource(R.drawable.ic_play);
                 } else fabPause.setImageResource(R.drawable.ic_pause);
             }
@@ -140,6 +157,8 @@ public class MainActivity extends AppCompatActivity {
                 tvMainArtist.setText(topSongModel.getArtist());
                 Picasso.with(MainActivity.this).load(topSongModel.getImage()).transform(new CropCircleTransformation()).into(ivMainImage);
                 Picasso.with(MainActivity.this).load(topSongModel.getImage()).transform(new BlurTransformation(MainActivity.this)).into(ivMainImageBackground);
+                MusicManager.updateSongRealTime(sbMainPlayer);
+
             }
         });
 

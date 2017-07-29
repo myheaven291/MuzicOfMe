@@ -5,6 +5,7 @@ import android.os.Handler;
 import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.widget.SeekBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.apple.demomusic.databases.TopSongModel;
